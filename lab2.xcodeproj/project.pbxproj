@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA970BFF2965FA1E00C1271A /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA970BFE2965FA1E00C1271A /* DataController.swift */; };
+		FA970C022965FD3F00C1271A /* AlbumModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA970C002965FD3F00C1271A /* AlbumModel.xcdatamodeld */; };
 		FAA615572914206300F990EC /* lab2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA615562914206300F990EC /* lab2App.swift */; };
 		FAA615592914206300F990EC /* AlbumsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA615582914206300F990EC /* AlbumsListView.swift */; };
 		FAA6155B2914206C00F990EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA6155A2914206C00F990EC /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA970BFE2965FA1E00C1271A /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		FA970C012965FD3F00C1271A /* AlbumModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlbumModel.xcdatamodel; sourceTree = "<group>"; };
 		FAA615532914206300F990EC /* lab2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lab2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA615562914206300F990EC /* lab2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab2App.swift; sourceTree = "<group>"; };
 		FAA615582914206300F990EC /* AlbumsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsListView.swift; sourceTree = "<group>"; };
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				FAA615562914206300F990EC /* lab2App.swift */,
+				FA970C002965FD3F00C1271A /* AlbumModel.xcdatamodeld */,
 				FAA615582914206300F990EC /* AlbumsListView.swift */,
+				FA970BFE2965FA1E00C1271A /* DataController.swift */,
 				FAA6155A2914206C00F990EC /* Assets.xcassets */,
 				FAA6155C2914206C00F990EC /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA970BFF2965FA1E00C1271A /* DataController.swift in Sources */,
+				FA970C022965FD3F00C1271A /* AlbumModel.xcdatamodeld in Sources */,
 				FAA615592914206300F990EC /* AlbumsListView.swift in Sources */,
 				FAA615572914206300F990EC /* lab2App.swift in Sources */,
 			);
@@ -339,6 +347,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA970C002965FD3F00C1271A /* AlbumModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA970C012965FD3F00C1271A /* AlbumModel.xcdatamodel */,
+			);
+			currentVersion = FA970C012965FD3F00C1271A /* AlbumModel.xcdatamodel */;
+			path = AlbumModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FAA6154B2914206300F990EC /* Project object */;
 }
